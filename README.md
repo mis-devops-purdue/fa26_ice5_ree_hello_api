@@ -1,7 +1,8 @@
 # hello_api
 
-A small FastAPI app with two endpoints:
+A small FastAPI app with three endpoints:
 
+- `GET /` returns the plain text `Online` (a quick health check)
 - `GET /hello` returns a casual hello message as JSON
 - `GET /goodbye` returns a casual goodbye message as JSON
 
@@ -33,7 +34,7 @@ poetry run uvicorn main:app --reload
 
 This uses uvicorn's default port, 8000.
 
-Then try `http://localhost:8080/hello` and `http://localhost:8080/goodbye`.
+Then try `http://localhost:8080/`, `http://localhost:8080/hello`, and `http://localhost:8080/goodbye`.
 
 ## Deploying (Google Cloud Run)
 

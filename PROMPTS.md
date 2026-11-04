@@ -18,3 +18,7 @@ I get this error:
 
 poetry run uvicorn hello_api:app --reload
 ERROR:    Error loading ASGI app. Could not import module "hello_api".
+
+## 2026-11-04 18:27:07
+
+create a very basic root route that just responds with "Online"
